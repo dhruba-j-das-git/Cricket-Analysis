@@ -1,0 +1,24 @@
+{
+  "name": "t20-cricket-analytics",
+  "version": "1.0.0",
+  "description": "T20 World Cup Cricket Data Analytics",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/scraper/index.js",
+    "process": "node src/processor/index.js",
+    "analyze": "node src/analyzer/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "axios-retry": "^3.9.1",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "csv-parse": "^5.5.2",
+    "dotenv": "^16.3.1",
+    "p-limit": "^4.0.0",
+    "https-proxy-agent": "^7.0.2",
+    "proxy-chain": "^2.3.0",
+    "random-useragent": "^0.5.0"
+  }
+}
